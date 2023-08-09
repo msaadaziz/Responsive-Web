@@ -1,0 +1,646 @@
+:root {
+    --color1: black;
+    --color2: #005f73;
+    --color3: #3d9397;
+    --color4: #94d28d;
+    --color5: #e9d8a6;
+    --color6: #ee9800;
+    --color7: #ca6702;
+    --color8: #bb3e03;
+    --color9: #ae2012; 
+    --color10: #9b2226;
+    --color11: #DBE5DE;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:var(--color11);
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------- Mobile Header styling starts-------------------------------- */
+
+header {
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: var(--color5);
+}
+.header-logo {
+    width: 80%;
+
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-between;
+}
+header li {
+    flex-basis: 48%;
+    margin-bottom: 8px;
+}
+header li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+header li:first-child a {
+    background-color: transparent;
+}
+header a {
+    text-decoration: none;
+    font-size:19px;
+    color: white;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    background-color: var(--color10);
+    border-radius: 0.3rem;
+}
+header a:hover {
+    background-color: black;
+    color: var(--color6);
+}
+
+/* ---------------------------------------- Mobile Header styling end-------------------------------- */
+
+
+/* ----------------------------------------Mobile Section 1 start -------------------------------- */
+
+#sec-1{
+    background-color: var(--color7);
+}
+#sec-1 img {
+    display: block;
+    margin: 0 auto;
+}
+/* ---------------------------------------- Mobile Section 1 end -------------------------------- */
+
+
+/* ---------------------------------------- Mobile Section 2 start -------------------------------- */
+.sec2 {
+    margin-bottom:48px;
+    padding-left: 8%;
+}
+.sec2-text {
+    display: block;
+    line-height: 1.6;
+  
+    
+}
+.sec2-img1 {
+    max-height: 120px;
+    display: block;
+
+}
+.sec2 h1 {
+    font-size:38px;
+    padding-left:3%;
+    padding-top: 1%;
+}
+.sec2 p {
+    padding-bottom: 6%;
+    padding-left: 2%;
+    font-weight: medium;
+}
+/* ---------------------------------------- Mobile Section 2 ends -------------------------------- */
+
+
+/* ---------------------------------------- Mobile Section 3 start -------------------------------- */
+
+/* ---------------------------------------- Mobile Section 3 ends -------------------------------- */
+
+.sec3-body {
+    width: 100%;
+    background-color:var(--color2)
+}
+
+.sec3 {
+    background-color:var(--color2);
+    color: white;
+}
+.sec3 li {
+    padding-bottom: 4%;
+}
+
+.sec3 h1 {
+    font-size:38px;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.sec3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sec3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.sec3 figure {
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    border-width: 8px;
+    border-radius: 5px;
+   
+}
+.sec3-fig1 {
+    border-color: var(--color9);
+    border-style: solid;
+}
+.sec3-fig2 {
+    border-color:var(--color6) ;
+    border-style: solid;
+}
+.sec3-fig3 {
+    border-color:var(--color4) ;
+    border-style: solid;   
+}
+
+.sec3 figure img {
+    margin-bottom: -4px;
+    width: 100%;
+    overflow: hidden;
+    object-fit:cover;
+   
+}
+
+.sec3 figcaption {
+    background-color: rgba(233, 231, 231, 0.6);
+    font-size:30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top:-10%;
+    padding: 0;
+    text-align: center;
+   
+}
+.sec3 figcaption a{
+    text-decoration: none;
+    color: black;
+}
+.sec3 figcaption a:hover {
+    color: #ca6702;
+    text-decoration: underline;
+}
+
+
+
+/* ---------------------------------------- Mobile Section 4 start -------------------------------- */
+
+.sec4 h1 {
+    font-size:38px;
+    padding-left:5%;
+    padding-top: 3%;
+}
+.sec4 img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 8px solid var(--color7);
+}
+
+/* ---------------------------------------- Mobile Section 4 ends -------------------------------- */
+
+
+/* ---------------------------------------- Mobile Section 5 start -------------------------------- */
+
+.sec5 h1 {
+    font-size:38px;
+}
+.sec5 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10%;
+}
+.sec5 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.sec5 figure {
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    border-width: 10px;
+    border-radius: 5px;
+   
+}
+.sec5-fig1 {
+    border-color: var(--color7);
+    border-style: solid;
+}
+.sec5-fig2 {
+    border-color:var(--color2) ;
+    border-style: solid;
+}
+.sec5-fig3 {
+    border-color:var(--color6) ;
+    border-style: solid;
+}
+.sec5-fig4 {
+    border-color: var(--color9);
+    border-style: solid;
+   
+}
+.sec5-fig5 {
+    border-color: var(--color4);
+    border-style: solid;
+}
+.sec5-fig6 {
+    border-color: var(--color3);
+    border-style: solid;
+}
+.sec5 figure img {
+    margin-bottom: -4px;
+    width: 100%;
+    overflow: hidden;
+    object-fit:cover;
+    object-position: 0 -40px;
+   
+}
+
+.sec5 figcaption {
+    background-color: rgba(233, 231, 231, 0.6);
+    font-size:30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top:-10%;
+    padding: 0;
+    text-align: center;
+
+}
+.sec5 figcaption a{
+    text-decoration: none;
+    color: black;
+}
+.sec5 figcaption a:hover {
+    color: #ca6702;
+    text-decoration: underline;
+}
+
+
+/* ---------------------------------------- Mobile Section 5 ends -------------------------------- */
+
+
+/* ---------------------------------------- Mobile footer start -------------------------------- */
+
+.footer {
+    background-color: var(--color5);
+}
+footer {
+    padding: 48px;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+footer h4 {
+    margin-top: 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+footer li {
+    margin-right: 16px;
+}
+footer address {
+    font-style: normal;
+    margin-top: 32px;
+    font-weight: bold;
+}
+
+
+
+@media (min-width: 550px )
+
+/* ---------------------------------------- Tablet Header styling starts-------------------------------- */
+
+ {
+    header {
+        padding: 48px;
+    }
+    header ul {
+        justify-content: center;
+        gap: 19px;
+
+    }
+    header li {
+        flex-basis: auto;
+        margin-bottom: 0;
+    }
+    header a {
+        color: black;
+        background-color: transparent;
+        padding: 0;
+    }
+    header a:hover {
+       background-color: transparent;
+       color: var(--color9)
+    }
+
+/* * ---------------------------------------- Tablet Header styling end-------------------------------- */ 
+
+
+/* * ---------------------------------------- Tablet section 1 starts-------------------------------- */ 
+
+#sec-1{
+    background-color: var(--color7);
+}
+#sec-1 img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+ /* * ---------------------------------------- Tablet section 1 ends-------------------------------- */ 
+
+
+ /* ----------------------------------------Tablet Section 2 start -------------------------------- */
+
+ .sec2 {
+    margin-bottom:48px;
+    padding-left: 0.1%;
+ }
+ .sec2 h1 {
+    font-size:40px;
+    padding-left:8%;
+    padding-top: 1%; 
+ }
+
+ .sec2-text {
+    display: flow-root;
+    max-width: 900px;
+}
+.sec2-img1 {
+    float: left;
+    max-height: 13.2rem;
+    shape-outside: polygon(35.84% 94.87%, 34.64% 87.05%, 51.64% 4.06%, 55.1% 2.38%);
+}
+/* ----------------------------------------Tablet Section 2 ends -------------------------------- */
+
+
+ /* ----------------------------------------Tablet Section 3 start -------------------------------- */
+
+ .sec3 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+ 
+.sec3 li {
+    flex-basis: 49.5%;
+    width: 100%;
+}
+
+.sec3 figure img {
+    object-position: 0;
+}
+
+.sec3 figure {
+    max-width: 100%;
+}
+.sec3 li:last-child {
+    flex-basis: 98%;
+}
+
+/* ----------------------------------------Tablet Section 3 ends -------------------------------- */
+
+/* ----------------------------------------Tablet Section 4 start -------------------------------- */
+
+.sec4 h1 {
+    font-size:40px;
+    padding-left:6%;
+    padding-top: 3%;
+}
+.sec4 img {
+    display: block;
+    margin: 0 auto;
+    border: 8px solid var(--color7);
+    width: 90%;
+}
+
+
+
+
+
+
+/* ----------------------------------------Tablet Section 4 end -------------------------------- */
+
+
+
+/* ----------------------------------------Tablet Section 5 start -------------------------------- */
+.sec5 h1 {
+    font-size:40px;
+    padding-left:5%;
+    padding-top: 3%;
+}
+
+
+.sec5 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.sec5 ul {
+    padding-bottom: 5%;
+}
+ 
+.sec5 li {
+    flex-basis: 49.5%;
+    width: 100%;
+}
+
+.sec5 figure img {
+    object-position: 0;
+}
+
+.sec5 figure {
+    max-width: 100%;
+}
+
+/* ----------------------------------------Tablet Section 5 end -------------------------------- */
+
+
+
+/* ---------------------------------------- Tablet footer start -------------------------------- */
+  section ul,
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+  section li,
+.social,
+address {
+    flex-basis: 49.5%;
+}
+/* ---------------------------------------- Tablet footer ends -------------------------------- */
+
+
+}
+
+
+
+ @media (min-width: 800px ) 
+ {
+
+ /* * ---------------------------------------- Desktop Header styling starts-------------------------------- */
+
+    header ul {
+        justify-content: flex-end;
+        flex-flow: row ;
+
+    }
+    header li:first-child {
+        flex-basis: auto;
+        margin: 0 auto;
+        order: 2;
+    }
+    header li:nth-child(2),
+    header li:nth-child(3) {
+        order: 1;
+    }
+    header li:nth-child(4),
+    header li:nth-child(5) {
+        order: 3;
+    }
+ /*  ---------------------------------------- Desktop Header styling end-------------------------------- */  
+
+
+ /* ---------------------------------------- Desktop Section 1 start -------------------------------- */
+
+ #sec-1{
+    background-color: var(--color7);
+}
+#sec-1 img {
+    display: block;
+    margin: 0 auto;
+}
+/*  ---------------------------------------- Desktop Section 1 end -------------------------------- */ 
+
+
+/* ----------------------------------------Desktop Section 2 start -------------------------------- */
+.sec2 {
+    margin-bottom:48px;
+    padding-left: 10%;
+ }
+ .sec2 h1 {
+    font-size:48px;
+    padding-left:2%;
+    padding-top: 1%; 
+ }
+/* ---------------------------------------- Desktop section 2 end -------------------------------- */
+
+
+/* ----------------------------------------Desktop Section 3 start -------------------------------- */
+.sec3 h1 {
+    font-size: 48px;
+    padding-left: 0%;
+}
+
+.sec3 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+ 
+.sec3 figure img {
+    object-position: 0;
+}
+
+.sec3 figure {
+    max-width: 100%;
+}
+.sec3 li:first-child {
+    flex-basis: 32.5%;
+}
+
+.sec3 li:nth-child(2),
+.sec3 li:nth-child(3) {
+    flex-basis: 32.5%;
+}
+
+/* ----------------------------------------Desktop Section 3 end -------------------------------- */
+
+
+
+/* ----------------------------------------Desktop Section 4 start -------------------------------- */
+
+.sec4 h1 {
+    font-size:48px;
+    padding-left:12%;
+    padding-top: 3%;
+}
+.sec4 img {
+    display: block;
+    margin: 0 auto;
+    border: 8px solid var(--color7);
+    width: 77%;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------Desktop Section 4 end -------------------------------- */
+
+
+
+/* ----------------------------------------Desktop Section 5 start -------------------------------- */
+.sec5 h1 {
+    font-size: 48px;
+    padding-left: 0;
+}
+
+.sec5 li {
+    flex-basis: 32.5%;
+}
+.sec5 ul {
+    padding-bottom: 5%;
+}
+
+/* ----------------------------------------Desktop Section 5 end -------------------------------- */
+
+
+/* ---------------------------------------- Desktop footer start -------------------------------- */
+address {
+    flex-basis: 65.5%;
+}
+.social {
+    flex-basis: 32.5%;
+}
+/* ---------------------------------------- Desktop footer end -------------------------------- */
+
+}
